@@ -26,7 +26,7 @@ It's seen that even without any heavy-weight data processing, the speed is alrea
 limited. For comparison,
 if `JSON.serialize()` is excluded, the speed is about 12 MB/s, while plain
 `readFileSync` + `JSON.parse` give me about 42 MB/s. At the same time,
-Java Jackson library appears to be capable of parsing around 200 MB/s speed
+Java Jackson library appears to be capable of parsing at around 200 MB/s speed
 on a single thread on the same file.
 
 ## Limiting and cancellation
