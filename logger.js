@@ -1,0 +1,1 @@
+exports.log = console.warn;

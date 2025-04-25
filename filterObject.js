@@ -1,0 +1,1 @@
+exports.filterObject = (obj) => true;
